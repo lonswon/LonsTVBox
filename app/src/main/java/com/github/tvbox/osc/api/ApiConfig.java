@@ -79,7 +79,7 @@ public class ApiConfig {
     }
 
     public void loadConfig(boolean useCache, LoadConfigCallback callback, Activity activity) {
-        String apiUrl = Hawk.get(HawkConfig.API_URL, "http://home.jundie.top:81/top98.json");
+        String apiUrl = Hawk.get(HawkConfig.API_URL, "https://agit.ai/liucn/box/raw/branch/main/m.json");
         if (apiUrl.isEmpty()) {
             callback.error("-1");
             return;
